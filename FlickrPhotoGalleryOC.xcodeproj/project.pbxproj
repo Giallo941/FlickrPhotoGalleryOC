@@ -16,6 +16,8 @@
 		0E8E8D3D21DCCB50002B67CD /* FlickrPhotoGalleryOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D3C21DCCB50002B67CD /* FlickrPhotoGalleryOCTests.m */; };
 		0E8E8D4821DCCB50002B67CD /* FlickrPhotoGalleryOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D4721DCCB50002B67CD /* FlickrPhotoGalleryOCUITests.m */; };
 		0E8E8D5821DCD82C002B67CD /* GalleryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D5721DCD82C002B67CD /* GalleryItem.m */; };
+		0E8E8D5A21DCEEF7002B67CD /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D5921DCEEF7002B67CD /* NetworkClient.m */; };
+		0E8E8D5F21DCF72B002B67CD /* UrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D5E21DCF72B002B67CD /* UrlManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,11 @@
 		0E8E8D4921DCCB50002B67CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E8E8D5621DCCC23002B67CD /* GalleryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryItem.h; sourceTree = "<group>"; };
 		0E8E8D5721DCD82C002B67CD /* GalleryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryItem.m; sourceTree = "<group>"; };
+		0E8E8D5921DCEEF7002B67CD /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		0E8E8D5B21DCEF16002B67CD /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		0E8E8D5C21DCF45C002B67CD /* RetriveElementsInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetriveElementsInterface.h; sourceTree = "<group>"; };
+		0E8E8D5D21DCF713002B67CD /* UrlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlManager.h; sourceTree = "<group>"; };
+		0E8E8D5E21DCF72B002B67CD /* UrlManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +122,11 @@
 				0E8E8D3221DCCB50002B67CD /* main.m */,
 				0E8E8D5621DCCC23002B67CD /* GalleryItem.h */,
 				0E8E8D5721DCD82C002B67CD /* GalleryItem.m */,
+				0E8E8D5B21DCEF16002B67CD /* NetworkClient.h */,
+				0E8E8D5921DCEEF7002B67CD /* NetworkClient.m */,
+				0E8E8D5C21DCF45C002B67CD /* RetriveElementsInterface.h */,
+				0E8E8D5D21DCF713002B67CD /* UrlManager.h */,
+				0E8E8D5E21DCF72B002B67CD /* UrlManager.m */,
 			);
 			path = FlickrPhotoGalleryOC;
 			sourceTree = "<group>";
@@ -267,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8E8D5A21DCEEF7002B67CD /* NetworkClient.m in Sources */,
 				0E8E8D2821DCCB4E002B67CD /* ViewController.m in Sources */,
 				0E8E8D3321DCCB50002B67CD /* main.m in Sources */,
+				0E8E8D5F21DCF72B002B67CD /* UrlManager.m in Sources */,
 				0E8E8D2521DCCB4E002B67CD /* AppDelegate.m in Sources */,
 				0E8E8D5821DCD82C002B67CD /* GalleryItem.m in Sources */,
 			);

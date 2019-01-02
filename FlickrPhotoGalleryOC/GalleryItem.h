@@ -19,8 +19,9 @@
                     secret:(NSString *)secret
                     server:(NSString *)server
                       farm:(NSString *)farm;
-- (NSString)getId;
 
-- (NSURL)getUrl;
+- (NSString *)getId;
+
+- (NSURL *)getUrl;
 
 @end
