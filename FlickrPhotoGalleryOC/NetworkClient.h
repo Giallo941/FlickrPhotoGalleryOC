@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GalleryItem.h"
 
-@interface NetworkClient
+@interface NetworkClient: NSObject
 
 @property NSString *query;
 @property NSNumber *page;

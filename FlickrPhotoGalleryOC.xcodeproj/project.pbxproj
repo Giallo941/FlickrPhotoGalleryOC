@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E546F9121E0F7B400BA32F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E546F9021E0F7B400BA32F3 /* DetailViewController.m */; };
 		0E8E8D2521DCCB4E002B67CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D2421DCCB4E002B67CD /* AppDelegate.m */; };
 		0E8E8D2821DCCB4E002B67CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8D2721DCCB4E002B67CD /* ViewController.m */; };
 		0E8E8D2B21DCCB4E002B67CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8E8D2921DCCB4E002B67CD /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E546F8F21E0F7B400BA32F3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0E546F9021E0F7B400BA32F3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0E8E8D2021DCCB4E002B67CD /* FlickrPhotoGalleryOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrPhotoGalleryOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8E8D2321DCCB4E002B67CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E8E8D2421DCCB4E002B67CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				0E8E8D5C21DCF45C002B67CD /* RetriveElementsInterface.h */,
 				0E8E8D5D21DCF713002B67CD /* UrlManager.h */,
 				0E8E8D5E21DCF72B002B67CD /* UrlManager.m */,
+				0E546F8F21E0F7B400BA32F3 /* DetailViewController.h */,
+				0E546F9021E0F7B400BA32F3 /* DetailViewController.m */,
 			);
 			path = FlickrPhotoGalleryOC;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				0E8E8D5F21DCF72B002B67CD /* UrlManager.m in Sources */,
 				0E8E8D2521DCCB4E002B67CD /* AppDelegate.m in Sources */,
 				0E8E8D5821DCD82C002B67CD /* GalleryItem.m in Sources */,
+				0E546F9121E0F7B400BA32F3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

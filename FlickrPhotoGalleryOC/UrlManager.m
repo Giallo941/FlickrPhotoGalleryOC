@@ -21,7 +21,7 @@ static NSString * const methodSearch = @"flickr.photos.search";
     NSString* url;
     
     if (query != nil) {
-        url = [NSString stringWithFormat:@"%@?method=%@&api_key=%@&format=json&nojsoncallback=1&text=%@&page=%@", endPoint, methodSearch, apiKey, &query, &page];
+        url = [NSString stringWithFormat:@"%@?method=%@&api_key=%@&format=json&nojsoncallback=1&text=%@&page=%d", endPoint, methodSearch, apiKey, query, page];
     } else {
         url = [NSString stringWithFormat:@"%@?method=%@&api_key=%@&format=json&nojsoncallback=1&page=%@", endPoint, methodGetRecent, apiKey, page];
     }

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetworkClient.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NetworkClient *result = [[NetworkClient alloc] initWithQuery:@"cane" page: [NSNumber numberWithInt:1]];
+    
+    [result getElements:^(NSArray<GalleryItem *> *elements) {
+        NSLog(@"%@", elements);
+    }];
 }
 
 
