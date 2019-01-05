@@ -1,15 +1,13 @@
 //
-//  DetailViewController.h
+//  CollectionViewCell.m
 //  FlickrPhotoGalleryOC
 //
 //  Created by Gianmarco Cotellessa on 05/01/2019.
 //  Copyright © 2019 Gianmarco Cotellessa. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CollectionViewCell.h"
 
-@interface DetailViewController : UIViewController
-
-@property NSURL* url;
+@implementation CollectionViewCell
 
 @end

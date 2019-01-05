@@ -7,8 +7,10 @@
 //
 
 #import "DetailViewController.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface DetailViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeNever;
+    [_imgView sd_setImageWithURL:_url];
 }
 
 @end

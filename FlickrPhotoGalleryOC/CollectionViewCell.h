@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  CollectionViewCell.h
 //  FlickrPhotoGalleryOC
 //
 //  Created by Gianmarco Cotellessa on 05/01/2019.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface CollectionViewCell : UICollectionViewCell
 
-@property NSURL* url;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

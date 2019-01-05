@@ -14,7 +14,7 @@ static NSString * const apiKey = @"51885ef41dff54033e1de374307f110c";
 static NSString * const prefSearchQuery = @"searchQuery";
 
 static NSString * const endPoint = @"https://api.flickr.com/services/rest/";
-static NSString * const methodGetRecent = @"https://api.flickr.com/services/rest/";
+static NSString * const methodGetRecent = @"flickr.photos.getRecent";
 static NSString * const methodSearch = @"flickr.photos.search";
 
 + (NSString *)getItemUrl:(NSString *)query page:(NSNumber *)page {
